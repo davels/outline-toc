@@ -22,11 +22,11 @@ The TOC buffer displays the headings in `outline-mode` and can be easily navigat
 From the TOC buffer you can show or jump to the corresponding point in the original buffer
 
 - <kbd>o</kbd> `outline-toc-goto-heading-other-window`
-- <kbd>C</kbd><kbd>o</kbd> `outline-toc-goto-heading`
+- <kbd>Ctrl</kbd><kbd>o</kbd> `outline-toc-goto-heading`
 
 You can also enable follow mode to automatically display the corresponding source location
 
-- <kbd>C</kbd><kbd>f</kbd> <kbd>C</kbd><kbd>f</kbd> `outline-toc-toggle-follow-mode`
+- <kbd>Ctrl</kbd><kbd>f</kbd> <kbd>Ctrl</kbd><kbd>f</kbd> `outline-toc-toggle-follow-mode`
 
 ## Example ##
 
