@@ -1,8 +1,8 @@
 # outline-toc
 
-outline-toc will create a new buffer with all the outline headings from the current file. You can use this to quickly jump to headings in the orignal file.
+outline-toc is an Emacs command to create a buffer with the outline headings from the current file. You can use this to quickly jump to headings in the orignal file.
 
-To create the outline table of contents (TOC) buffer for the current file make sure that `outline-regexp` and `outline-level` are valid (most modes should have sane default), then issue the command:
+To create the outline table of contents (TOC) buffer for the current file, make sure that `outline-regexp` and `outline-level` are valid (most modes should have sane default), then issue the command:
 
 ``` shell
 M-x outline-toc-show
@@ -34,7 +34,7 @@ You can also enable follow mode to automatically display the corresponding sourc
 
 ## Extras ##
 
-`helm-outline.el` contains two simple helm commands to jump to file headings using helm
+`helm-outline.el` contains two simple helm commands to jump to file headings using helm.
 
 - `helm-outline`
 - `helm-outline-and-imenu`
